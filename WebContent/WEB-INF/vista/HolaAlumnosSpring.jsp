@@ -7,6 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-Hola ${param.nombreAlumno}. Bienvenido al curso de Spring
+Hola ${param.nombreAlumno}. Bienvenido al curso de Spring <br>
+El valor obtenido desde pagina anterior  ${param.valorPrueba}
+
+<p><br>
+<h2>Atencion a todos </h2>
+${mensajeClaro}
+</p>
 </body>
-</html>
+</html> 
