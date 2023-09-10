@@ -7,7 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-    <h1>Ejemplo de MVC con Spring</h1>
-    <a href="muestraFormulario">ir al formulario</a>
+	<form action="procesarFormulario" method="get">
+		<input type="text" name="nombreAlumno">
+		<input type="submit">
+	</form>
 </body>
 </html>
